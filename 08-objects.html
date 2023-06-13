@@ -8,13 +8,23 @@
 <body>
     
     <script>
-        const product = {
+        const product1 = {
             name: 'socks',
-            price: 1095
+            price: 1095,
+            age: 25,
+            score: {
+                math: 78,
+                test: 95,
+                csc: 100
+            }
         }
 
-        console.log(product)
-        console.log(product.name)
+       // product.newProperty = true;
+        console.log(product1)
+        //console.log(product.name)
+
+        product2 = JSON.stringify(product1)
+        console.log(product2)
     </script>
 </body>
 </html>
